@@ -277,39 +277,33 @@
                  </div>
              </div>
 
-               <!--Start contact form-->
-               <div class="col-md-8 col-md-offset-2 contact-form">
-               
-                    <div class="contact-info text-center">
-                        <p>Maryville, TN 37801 </p>
-                        <p>P: (865)268-5812</p>
-                       <p>E: Jason.amburn@icloud.com </p>
-                    </div>
-                     
-                    <form
-                    action="https://formspree.io/f/mleqgzbp"
-                    method="POST"
-                  >
-                        <div class="row">
-                            <div class="col-md-4">
-                                <input class="form-control" id="name" placeholder="Full Name" type="text">
-                            </div>
-                            <div class="col-md-4">
-                                <input class="form-control" id="email" placeholder="Your Email" type="email">
-                            </div>
-                            <div class="col-md-4">
-                                <input class="form-control" id="subject" placeholder="Subject" type="text">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea class="form-control" id="message" rows="7" placeholder="Your Message"></textarea>
-                            </div>
-                            <div class="col-md-12 text-right">
-                                <button type="submit" class="btn btn-green">SEND MESSAGE</button>
-                            </div>
-                        </div>
-                    </form>
-               </div>
-              <!--End contact form-->
+<!-- Start contact form -->
+<div class="col-md-8 col-md-offset-2 contact-form">
+    <div class="contact-info text-center">
+        <p>Maryville, TN 37801 </p>
+        <p>P: (865)268-5812</p>
+    </div>
+    <form action="https://formspree.io/f/mleqgzbp" method="POST">
+        <div class="row">
+            <div class="col-md-4">
+                <input class="form-control" id="name" name="name" placeholder="Full Name" type="text">
+            </div>
+            <div class="col-md-4">
+                <input class="form-control" id="email" name="email" placeholder="Your Email" type="email">
+            </div>
+            <div class="col-md-4">
+                <input class="form-control" id="subject" name="subject" placeholder="Subject" type="text">
+            </div>
+            <div class="col-md-12">
+                <textarea class="form-control" id="message" name="message" rows="7" placeholder="Your Message"></textarea>
+            </div>
+            <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-green">SEND MESSAGE</button>
+            </div>
+        </div>
+    </form>
+</div>
+<!-- End contact form -->
               
        </div> <!-- /.container-->
    </section>
